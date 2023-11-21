@@ -23,3 +23,8 @@
 .prom{
     font-size: 12px;
 }
+
+.cartaT{
+    border: 2px solid white;
+    box-shadow: 1px 2px 2px #9f9e9e;
+}

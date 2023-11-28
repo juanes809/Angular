@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    column-gap: 17px;
+}
+
+.producto{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+p{
+    margin: 0;
+}
+
+.titulo{
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.link{
+    display: flex;
+    align-self: end;
+    margin-left: 70px;
+    column-gap: 25px;
+    padding: auto;
+}
+
+.link a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.precios{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.descuento{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.envio{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    position: relative;
+    top: 30px;
+    gap: 10px;
+}
+
+.truck{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(110, 178, 42);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px ;
+}
+
+
+.Header{
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.Header img{
+    width: 120px;
+}
+
+.formato-pago{
+    border: 1px solid black;
+}
+
+.info{
+    padding: 12px;
+    font-size: 13px;
+}
+
+.envio-g{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+}
+
+
+.boton-c{
+    background-color: chocolate;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}

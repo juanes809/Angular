@@ -1,0 +1,19 @@
+<p>Hola soy el componente marvel</p>
+
+@for(personaje of personajes; track personaje.name){
+
+@if(nombresuperHeroeJacob == personaje.name || personaje.estado == "Vivo"){
+<p>{{ personaje.name }}</p>
+<p>{{ personaje.estado }}</p>
+<p>{{ personaje.grupo }}</p>
+<p>{{ personaje.poderes }}</p>
+<img src={{personaje.imagen}} alt="" style="width: 100px;">
+}
+}
+
+
+@if(estasBien){
+    <p>Estas bien</p>
+}@else{
+    <p>Estas Mal</p>
+}

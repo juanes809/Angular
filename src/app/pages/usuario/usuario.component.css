@@ -1,0 +1,51 @@
+
+.pass{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.email{
+    width: 300px;
+    
+}
+
+.bt-i{
+    background-color: chocolate;
+    color: white;
+    transition: 0.4s;
+}
+
+.bt-i:hover{
+    background-color: rgba(187, 97, 33);
+}
+
+.link-r a{
+    padding: 8px;
+    text-decoration: none;
+    color: chocolate;
+    transition: all 0.3s;
+    border-radius: 10px solid;
+}
+
+.link-r a:hover{
+    background-color: rgb(208, 123, 63);
+    border-radius: 7px;
+    color: white;
+}
+
+
+
+
+
+
+.for-label:hover{
+    background-color: white;
+    border: solid 1 px #f3f3f4;
+    box-shadow: 0 0 4px #6f2c6f;
+}
+
+.for-label:focus{
+    background-color: white;
+    border: solid 1 px #f3f3f4;
+    box-shadow: 0 0 4px #6f2c6f;
+} 

@@ -1,0 +1,112 @@
+.inputs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.formulario{
+    width: 15rem;
+}
+
+.bt-r{
+    background-color: chocolate;
+    color: white;
+    transition: 0.4s;
+}
+
+.bt-r:hover{
+    background-color: rgba(187, 97, 33);
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.facebook{
+    background-color: white;
+    color: black;
+    border: none rgba(210, 105, 30, 0.48);
+    border-radius: 5px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     padding: 2px;
+     cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.facebook:hover{
+    border: 0.5px solid rgba(210, 105, 30, 0.48);
+
+}
+
+.facebook img{
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+
+.google{
+    background-color: white;
+    color: black;
+    border: none  rgba(210, 105, 30, 0.48);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.google:hover{
+    border: 0.5px solid rgba(210, 105, 30, 0.48);
+}
+
+.google img{
+    height: 28px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+.apple{
+    background-color: white;
+    color: black;
+    border: none rgba(210, 105, 30, 0.48);
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.apple:hover{
+    border: 0.5px solid rgba(210, 105, 30, 0.48);
+
+}
+
+.apple img{
+    width: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}

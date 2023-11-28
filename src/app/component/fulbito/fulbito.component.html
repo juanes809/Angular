@@ -1,0 +1,7 @@
+<div class="row">
+    @for(i of futbolistas; track i.nombre){
+    <div class="col-3">
+        <app-card [title]="i.nombre" [imagen]="i.imagen"></app-card>
+    </div>
+    }
+</div>

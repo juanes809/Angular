@@ -1,0 +1,19 @@
+.link_{
+    align-items: center;
+    gap: 6px;
+}
+
+.link_ a{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.link_ a:hover{
+    color: chocolate;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
